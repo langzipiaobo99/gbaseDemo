@@ -30,7 +30,7 @@ public class DemoApplication {
 		try {
 			conn = this.dataSource.getConnection();
 			rs = conn.getMetaData().getDriverVersion();
-			System.out.println("adfadsf+++++++++" + rs);
+			System.out.println("江苏adfadsf+++++++++" + rs);
 		} catch (SQLException e) {
 			e.printStackTrace();
 		} finally {
